@@ -4,7 +4,6 @@
 
 # 1. ВИРТУАЛЬНОЕ ОКРУЖЕНИЕ PYTHON
 # --------------------------------
-# Игнорировать виртуальные окружения
 env/
 venv/
 .venv/
@@ -14,7 +13,6 @@ ENV/
 
 # 2. ФАЙЛЫ КЕША И КОМПИЛИРОВАННЫЕ ФАЙЛЫ PYTHON
 # --------------------------------------------
-# Кеш Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -23,13 +21,10 @@ __pycache__/
 
 # 3. СРЕДА РАЗРАБОТКИ
 # -------------------
-# PyCharm / IntelliJ IDEA
 .idea/
 *.iml
 *.ipr
 *.iws
-
-# VS Code
 .vscode/
 *.code-workspace
 
@@ -40,7 +35,6 @@ Thumbs.db
 Desktop.ini
 ehthumbs.db
 [Dd]esktop.ini
-
 # macOS
 .DS_Store
 .AppleDouble
@@ -58,45 +52,23 @@ ehthumbs.db
 
 # 6. ФАЙЛЫ ПРОЕКТА (по заданию)
 # -----------------------------
-# Игнорировать файл с именем secret.txt
 secret.txt
-
-# Игнорировать содержимое директории logs
 logs/
-
-# Игнорировать файлы с расширением .log (уже есть выше)
-# *.log
-
-# Игнорировать файлы, начинающиеся со слова temp
 temp*
-
-# Отслеживать файл temp_important.txt, даже если есть шаблон на игнорирование temp*
 !temp_important.txt
-
-# 7. ФАЙЛ ДЛЯ ПРАКТИКУМА (специально для задания)
-# ----------------------------------------------
 tmp_data.txt
 
-# 8. ДОПОЛНИТЕЛЬНО ДЛЯ PYTHON
+# 7. ДОПОЛНИТЕЛЬНО ДЛЯ PYTHON
 # ---------------------------
-# Файлы setup
 build/
 dist/
 *.egg-info/
 *.egg
-
-# Тестовые покрытия
 .coverage
 .coverage.*
 htmlcov/
-
-# Jupyter Notebook
 .ipynb_checkpoints/
-
-# mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
-
-# Pyre type checker
 .pyre/

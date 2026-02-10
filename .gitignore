@@ -72,3 +72,10 @@ htmlcov/
 .dmypy.json
 dmypy.json
 .pyre/
+
+# Конфиденциальные данные (python-dotenv)
+.env
+.env.local
+.env.*.local
+*.env
+env.local

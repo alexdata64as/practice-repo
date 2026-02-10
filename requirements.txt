@@ -1,8 +1,19 @@
-# Зависимости проекта practice-repo
+# Основные зависимости
 python-dotenv>=1.0.0
 
-# Для работы с Git через Python (опционально)
+# Data Science стек (пример)
+numpy>=1.21.0
+pandas>=1.3.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+jupyter>=1.0.0
+
+# Для тестирования
+pytest>=7.0.0
+
+# Для работы с Git через Python
 gitpython>=3.1.0
 
-# Для тестирования (опционально)
-pytest>=7.0.0
+# Для документации
+sphinx>=4.0.0

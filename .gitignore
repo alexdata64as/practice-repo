@@ -79,3 +79,26 @@ dmypy.json
 .env.*.local
 *.env
 env.local
+
+# ============================================
+# DATA SCIENCE PROJECT STRUCTURE
+# ============================================
+
+# Данные (обычно большие и не коммитятся)
+data/raw/
+data/processed/
+data/external/
+
+# Ноутбуки кеш
+notebooks/.ipynb_checkpoints/
+
+# Отчёты временные
+reports/tmp/
+
+# Логи
+*.log
+logs/
+
+# Временные файлы проекта
+*.tmp
+*.temp
